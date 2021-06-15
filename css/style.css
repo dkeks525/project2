@@ -1,0 +1,345 @@
+/*공통*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{margin: 0; padding: 0; font-family: 'Noto Sans KR', sans-serif;}
+body{overflow-x: hidden}
+ul{list-style:none}
+.hidden{position: absolute;width:1px;height:1px; overflow:hidden}
+.inner{width: 1280px; margin: 0 auto}
+
+
+/*상단메뉴*/
+.top_header{width: 100%; height: 40px; line-height: 40px; border-bottom: 2px solid #e1e1e1; font-size: 13px; text-align: center}
+.top_header>.inner:after{display: block; content: ""; clear: both}
+.left_top{width: 274px; float: left; color: #6e6e6e; font-weight: normal}
+.login{width: 240px; float: right}
+.login>li{width: 25%; float: left}
+.login:after{display: block; content: ""; clear: both}
+.left_top>li{width: 32.9%; float: left; border-right: 1px solid #e1e1e1; background-color: #f8f9e6;font-weight: normal}
+.left_top:after{display: block; content: ""; clear: both}
+.left_top>li:nth-child(1){background-color: #212121; color: #fff}
+.left_top>li:nth-child(3)>select{width: 100%; height: 38px; border: none; background-color: #f8f9e6; color: #6e6e6e; font-weight: normal}
+.login>li:before{display: inline-block; content: ""; width: 1px; height: 10px; background-color: #e1e1e1; margin: 0 10px 0 0}
+.login>li:nth-child(1):before{display: none}
+
+
+
+
+/*아래메뉴*/
+.bottom_header{width: 100%; height: 85px; line-height: 85px; border-bottom: 1px solid #e3e1be; font-size: 14px; text-align: center}
+.bottom_header>.inner{width: 1280px; height: 92px; position: relative}
+.menu{width: 420px;float: left}
+.menu>li{width: 20%; float: left}
+.menu>li:nth-child(1){padding: 0}
+.menu>li:last-child{padding: 0}
+.menu:after{display: block; content: ""; clear: both}
+.menu a{text-decoration: none; color: #000}
+.logo{position: absolute; width: 350px; left: 0; right: 0 ; margin: 0 auto; top: 15%}
+.sub_menu{float: right}
+.right_menu{width: 320px; float: left}
+.sub_menu:after{display: block; content: ""; clear: both}
+.right_menu>li{float: left;margin: 0 20px 0 0}
+.right_menu>li:first-child{width: 140px; height: 85px; background-color: #e73636; color: #fff; line-height: 85px; font-size: 20px }
+.right_menu:after{display: block; content: ""; clear: both}
+.right_menu>li>i{vertical-align: middle}
+.bottom_header>.inner:after{display: block; content: ""; clear: both}
+
+
+/*메인이미지*/
+.back_color{width: 100%; height: 640px; background-image: url(../images/mainimg.png); background-repeat: no-repeat;background-position: center center}
+#mainimg{background-color: #f3f7b2; position: relative}
+.main_text{text-align: left; position: absolute; top: 10%; left: 15%}
+.main_text>h3{font-size: 14px; font-weight: normal; padding-bottom: 10px}
+.main_text>h1{font-size: 36px; padding-bottom: 20px; letter-spacing: -1px}
+.main_text>p{font-size: 16px; letter-spacing: -1px; padding-bottom: 30px}
+.btn{width:146px; height: 53px; border: 1px solid #2c2c2c; text-align: center; line-height: 53px}
+
+/*콘텐츠*/
+
+.hope_set{width:1280px; margin: 100px auto 0}
+.hope_title{width: 100% ;height: 80px; position: relative; text-align:center}
+.hope_title:before{display: block; content: ""; position: absolute; width: 100%; height: 1px; background-color: #333333; top: 10%}
+.hope_title>h2>span{color: #f95959}
+.hope_img div{float: left; width: 33%}
+.hope_title>h2{position: absolute; width: 40%; background-color: #fff; left: 0 ; right: 0; margin: 0 auto}
+
+.hope_title{margin-bottom: 5%}
+.hope_set{position: relative}
+.hope_title>p{padding-top: 35px; color: #c0c0c0; font-weight: normal; font-size: 14px}
+.hope_img{text-align: center}
+.hope_set .btn_prev{position: absolute; left: 0; top: 45%}
+.hope_set .btn_next{position: absolute; right: 0; top: 45%}
+.hope_img:after{display: block; content: "";clear: both}
+.donation:after{display: block; content: "";clear: both}
+.hope_list{position: absolute; width: 1050px; left: 0; right: 0; margin: 0 auto}
+.hope_list>.list{width: 33.3%; float: left}
+.hope_list:after{display: block; content: ""; clear: both}
+.hope_list>.list>img{width: 90%}
+
+.donation{width: 100%; height: 130px; margin:5% 0 0; text-align: center}
+.donation_box{width: 80%; height: 130px; float: left; background-color: #8b8b8b; position: relative; border-radius: 8px 0 0 8px}
+.donation_box>dl{width: 33%; height: 80px; padding-top: 25px; float: left}
+.dot1{top: 40%; left: 32%; position: absolute}
+.dot2{top: 40%; right: 33%; position: absolute}
+.donation_box>dl>dt{font-size: 18px;color: #fdfee5; padding-top: 25px}
+.donation_btn{width: 20%; height: 130px; float: right; background-color: #adada7; border-radius: 0 8px 8px 0; color: #fff; line-height: 130px; font-size: 21px}
+.donation:after{display: block; content: ""; clear: both}
+
+.banner_set{width: 100%; height: 485px; margin-top: 70px; color: #000}
+.banner_set>.inner{width: 1280px; height: 340px; position: relative}
+.banner_set>.inner>div{position: absolute; left: 15%; top: 30%}
+.banner_set>.inner>ul{position: absolute; right: 10%; top: 35%; font-size:14px; width: 430px}
+.banner_set>.inner>ul>li{width: 26%; float: left; text-align: center; padding-top: 50px}
+.banner_set>.inner>div>h3{font-size: 30px; padding-bottom: 30px; color: #000}
+.banner_set>.inner>div>p{font-size: 20px; color: #000; letter-spacing: -1px}
+.banner_set>.inner>ul>li:nth-child(2){width: 204px; height: 202px; background-image: url(../images/pc-main_25.jpg); background-repeat: no-repeat; padding-top: 60px}
+.banner_set>.inner>ul>li:last-child{padding-top: 65px}
+
+.story_set{width: 100%; height: 750px;background-color: #fdfee5; margin-top: 5%}
+.story_set>h2{font-size: 34px; text-align: center; font-weight: normal; color: #000; padding-top: 120px}
+.storyslider{width: 1280px; height: 500px; position: relative; color: #000; margin: 50px auto 0}
+.storyslider>.btn_prev{position: absolute; top: 45%; left: 0}
+.storyslider>.btn_next{position: absolute; top: 45%; right: 0}
+.story_list{width: 970px; position: absolute; left: 0; right: 0; margin: 0 auto}
+.story_list>.slide{width: 33.3%; float: left; letter-spacing: -1px}
+.story_list>.slide>img{width:90%; margin: 10% 10%}
+.story_list>.slide>p{font-size: 15px; color: #2d2d2d; padding: 0 10%}
+
+.icon_set{text-align: center; padding-top: 110px}
+.icon_set>h2{font-size: 34px; color: #222222}
+.icon_set>p{font-size: 14px; color: #2d2d2d; padding: 30px 0 100px}
+.icon_set>ul{width: 50%; margin: 0 auto; font-size: 17px}.icon_set>ul>li{width: 33%; float: left}
+.icon_set>ul:after{display: block; content: ""; clear: both}
+.icon_set>ul>li>i{height: 60px; display: block; padding-bottom: 15px}
+
+.tvcm_set{width: 100%; height: 294px; background-image: url(../images/box5.jpg); background-size: cover; color: #fff; text-align: center; margin-top: 140px}
+.tvcm_set>h2{padding: 40px 0 10px 0; font-size: 34px; text-shadow: 0 0 9px rgba(0, 0, 0, 0.8) }
+.tvcm_set>p{font-size: 16px; text-shadow: 0 0 9px rgba(0, 0, 0, 0.5); letter-spacing: -1px; padding-bottom: 10px}
+.tvcm_set>div:last-child{width: 150px; height: 50px; line-height: 50px; margin: 5px auto 0; border: 1px solid none; border-radius: 10px;  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); background-color: #be483f}
+
+.board_set{width: 1280px; height: 80px; line-height: 80px; margin: 0 auto; font-size: 14px; color: #000}
+.board_set>h2{float: left; width: 130px; font-weight: normal}
+.board_set>p{float: left}
+.board_set>ul{float: right}
+.board_set:after{display: block; content: ""; clear: both}
+.boare_set>ul:after{display: block; content: ""; clear: both}
+.date{float: left; color: #979996}
+.more{float: right; width: 110px; text-align: right; text-decoration: underline}
+
+#footer{width: 100%; height: 298px; background-color: #1e1f21}
+.top_footer{width: 100%; height: 80px; line-height: 80px; border-bottom: 1px solid #4f5051; font-size: 12px; color: #727071}
+.top_footer>.inner>ul>li{float: left; padding-right: 25px}
+.top_footer>.inner>ul:after{display: block; content: ""; clear: both}
+.bottom_footer{color: #999999; font-size: 8px; padding-top: 40px}
+.f_logo{float: left; padding-right: 80px}
+.copyright{float: left}
+.info{float: right; color: #fff; font-size: 18px}
+.bottom_footer>.inner:after{display: block; content: ""; clear: both}
+.info>ul>li{float: left}
+.info>ul:after{display: block; content: ""; clear: both}
+.info>ul>li>span{font-size: 12px; color: #696769; padding-right: 5px}
+.info>ul>li>span:after{display: inline-block; content: "|"; padding: 0 10px; color: #696769}
+
+.copyright>p{padding-top: 40px; color: #9a9a9c}
+.copyright>ul>li{position: relative; padding-left: 115px; padding-bottom: 5px}
+.copyright>ul>li>span{position: absolute; left: 0}
+.copyright>ul>li:last-child{color: #696769}
+
+
+/*서브1*/
+.location{width:100%; height: 45px; line-height: 45px; border-bottom: 1px solid #e3e1be}
+.location1>.inner{position: relative;text-align: center; width: 1280px}
+.location1>.inner>ul>li{float: left}
+.location1>.inner>ul:after{display: block; content: ""; clear: both}
+.location1 li:first-child{height: 25px; padding-top: 5px; position: absolute; left: 0; margin-left: 20px}
+.location>.location1>.inner>ul>li:nth-child(2){position: absolute; left: 4%; height: 38px}
+.location>.location1>.inner>ul>li:nth-child(3){ height: 38px; position: absolute; left: 12%}
+.location1>.inner>ul>li>select{border: none; height: 44px; vertical-align: top; font-size: 11px; color: #666666}
+
+.subimage{width: 100%; height: 622px; background-image: url(../images/submain.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover}
+
+.network{width: 1280px; margin: 0 auto; text-align: center}
+.network_set{padding: 30px 0 40px}
+.network_set>h2{font-size: 26px; color: #222222}
+.network_set>h2>i{padding-right: 10px; vertical-align: middle}
+.network_set>h2>span{color: #dd2727}
+.network_set>p{font-size: 12px; color: #9fa19f; padding-left: 10%}
+.sub_icon{width: 100%; height: 445px; border: 1px solid #e1e1e1; color: #222222; padding: 65px 10px 65px 14px; position: relative}
+.sub_icon>dl{width: 33%; float: left}
+.sub_icon:after{display: block; content: "";clear: both}
+.sub_icon>dl>dt{font-size: 25px; font-weight: normal; padding: 34px 0}
+.sub_icon>dl:nth-child(5){padding-top: 12px}
+.sub_icon>dl>dd{font-size: 14px}
+.sub_icon>dl:nth-child(3){margin-top: -2%}
+.sub_icon>dl:nth-child(4),.sub_icon>dl:nth-child(5),.sub_icon>dl:nth-child(6){border-top: 1px solid #d9d9d9}
+.sub_icon>dl:nth-child(1),.sub_icon>dl:nth-child(2),.sub_icon>dl:nth-child(3){padding-bottom: 20px}
+.sub_icon>dl:nth-child(1),.sub_icon>dl:nth-child(4),.sub_icon>dl:nth-child(2),.sub_icon>dl:nth-child(5){border-right: 1px solid #d9d9d9}
+.sub_icon>dl>dt>i{display: block}
+.sub_icon>dl>dd>ul{width: 60%; margin: 0 auto; text-align: center}
+.sub_icon>dl:nth-child(2){padding-top: 4px}
+.subbox{width: 1280px; margin: 0 auto; text-align: center}
+.subbox>h3{padding: 70px 0 20px; font-size: 20px; font-weight: bold;color: #222222; text-align: left}
+.subbox_l{width: 48%; height: 455px; float: left; border: 1px solid #e1e1e1}
+.subbox_r{width: 48%; height: 455px; float: right; border: 1px solid #e1e1e1}
+.subbox:after{display: block; content: ""; clear: both}
+.hopeguide{padding: 50px 0 12px; display: block}
+.txt1{font-size: 24px; font-weight: bold; padding-bottom: 12px}
+.btn_view{width: 115px; height: 26px; line-height: 26px; text-align: center; color: #666666; border: 1px solid #cccccc; border-radius: 10px; margin: 0 auto}
+.txt2{font-size: 26px; padding: 25px 0 45px}
+.txt2:before{display: block;content: "" ; width: 20px; height: 1px; background-color: #222222; margin: 0 auto; margin-bottom: 35px}
+.txt2>span{font-weight: bold; color: #dd2727}
+.btn_1{width: 213px; height: 60px;line-height: 60px; color: #fff; text-align: center; background-color: #787878; margin: 0 auto}
+.box:after{display: block; content: ""; clear: both}
+.subbox_r>.btn_1{margin-top: -10px}
+.subbox_r>.txt2{margin-top: -10px}
+.subbox_r>.btn_view{margin-bottom: 8px}
+.subbox_list {font-size: 14px; color: #777777; padding: 18px 0 122px; text-align: left}
+
+.subbox_list > li {background-image: url(../images/list-style.jpg);background-repeat: no-repeat;background-position: left 10px; padding-left: 10px}
+
+@media (max-width:1279px)
+{
+    #header{height: 132px; position: relative}
+    .top_header{display: none}
+    .bottom_header{height: 132px; line-height: normal; border-bottom: 0}
+    .bottom_header>.inner{width: 100%}
+    .logo{margin: 0 auto}
+    .login,.left_top{display: none}
+    .menu{padding: 8% 35% 0}
+    .right_menu{display: none}
+    
+    .back_color{padding-top: calc(740/750*100%); background-repeat: no-repeat; height: 0}
+    .hope_set{width: 100%}
+    .hope_title{width: 100%; left: 0; right: 0; margin: 0 auto}
+    .hope_img div{width: 100%; left: 0; right: 0; margin: 0 auto; height: auto; margin-bottom: 30px}
+    .hope_list>.list:nth-child(2){display: none}
+    .hope_list>.list:nth-child(3){display: none}
+    .hope_list{width: 50%;height: 0; padding-top: calc(313/482*100%); position: relative; padding-bottom: 10%}
+    .btn_prev{display: none}
+    .btn_next{display: none}
+    .hope_list>.list{position: absolute; top: 0; width: 100%}
+    
+    .donation{height: 392px}
+    .donation_box{width: 100%; height: auto; float: none; border-radius: 5px}
+    .donation_box>dl{width: 100%; float: none}
+    .donation_btn{display: none}
+    .dot2{top: 61%; left: 0; right: 0; margin: 0 auto}
+    .dot1{top: 31%; left: 0; right: 0; margin: 0 auto}
+    
+    .banner_set>.inner{width: 100%}
+    .banner_set>.inner>div{top: 15%; text-align: left}
+    .banner_set>.inner>div>p{display: none}
+    .banner_set>.inner>ul{bottom: auto}
+    
+    .story_set{height: 0; padding-top: calc(1600/1920*100%); position: relative}
+    .story_set>h2{position: absolute; top: 0; left: 0; right: 0; margin: 0 auto; padding-top: 50px}
+    .storyslider{width: 100%; position: absolute; top:15%}
+    .storyslider>.btn_prev{display: none}
+    .storyslider>.btn_next{display: none}
+    .story_list{width: 80%; height: 0; padding-top: calc(800/680*100%); position: relative}
+    .story_list>.slide:nth-child(2){display: none}
+    .story_list>.slide:nth-child(3){display: none}
+    .story_list>.slide{width: 70%; float: none; position: absolute; top: 0; left: 0; right: 0; margin: 0 auto}
+    
+    .icon_set>ul{width: 100%}
+    .icon_set>ul>li{width: 100%; padding-bottom: 50px}
+    .tvcm_set{margin-top: 50px}
+    .board_set{width: 98%}
+    .more{display: none}
+    .top_footer{border-bottom: none; line-height:normal}
+    .top_footer>.inner>ul>li{width: 21%; padding: 1% 0 1% 10px;text-align: left}
+ #footer{height: 196px; width: 100%}
+    .f_logo{display: none}
+    .info{display: none}
+    .bottom_footer{position: relative; width: 100%; height: 80px}
+    .bottom_footer>.inner{width: 100%}
+    .bottom_footer{border-top: 1px solid #868686}
+    .bottom_footer>.inner>.copyright>ul>li:last-child{display: none}
+    .copyright{float: none; position: absolute; top: 1%; left: 0; right: 0; margin: 0 auto; text-align: center; width: 90%}
+    .copyright>ul>li{position: unset; padding-left: 0;width: 25%; float: left; font-weight: bold; color: #b8b8b8; padding-top: 10px}
+    .copyright>ul:after{display: block; content: ""; clear: both}
+    .copyright>ul>li>span{position: unset; left: auto; padding-right: 5px; font-weight: normal; color: #868686}
+    
+/*sub 1*/
+.top_header>.inner{width: 100%}
+.location1>.inner>ul>li:first-child{padding: 5px 0 0}
+
+.location1 li:first-child{height: 25px; padding-top: 5px}
+ 
+.location li:nth-child(3){left}
+.location1>.inner>ul{border-top: 1px solid #f6f0ab; padding: 0 3%}
+    .location1{background-color: #fff}
+    .location1>.inner>ul>li{background-color: #fff; color: #000; float: left; padding-left: 10px}
+    .location>.location1>.inner>ul{display: block;
+    content: ""; clear: both}
+    
+    .subimage{height: 0; padding-top: calc(611/1920*100%)}
+    .network{width: 98%}
+    .sub_icon{height: auto}
+    .sub_icon>dl{width: 100%; float: none}
+    .sub_icon>dl>dd>ul{width: 25%; padding-left: 0}
+    .sub_icon>dl:nth-child(4),.sub_icon>dl:nth-child(5),.sub_icon>dl:nth-child(6){border: none}
+    .sub_icon>dl:nth-child(1),.sub_icon>dl:nth-child(4),.sub_icon>dl:nth-child(2),.sub_icon>dl:nth-child(5){border: none}
+    .subbox{width: 80%}
+    
+    #footer{height: 196px; width: 100%}
+    .top_footer>.inner{width: 100%}
+    .f_logo{display: none}
+    .info{display: none}
+    .bottom_footer{position: relative; padding-top: 0; width: 100%; height: 80px}
+    .bottom_footer>.inner{width: 100%}
+    .bottom_footer{border-top: 1px solid #868686}
+    .bottom_footer>.inner>.copyright>ul>li:last-child{display: none}
+    .copyright{float: none; position: absolute; top: 1%; left: 0; right: 0; margin: 0 auto; text-align: center; width: 90%}
+    .copyright>ul>li{position: unset; padding-left: 0;width: 25%; float: left; font-weight: bold; color: #b8b8b8; padding-top: 10px}
+    .copyright>ul:after{display: block; content: ""; clear: both}
+    .copyright>ul>li>span{position: unset; left: auto; padding-right: 5px; font-weight: normal; color: #868686}
+}
+
+
+@media(max-width:768px)
+    {.menu{display: none}
+    #header{height: 92px}
+    .bottom_header{height: 92px}
+    .logo{top: 30px}
+    .hope_title>h2{width: 100%}
+    .banner_set>.inner>ul>li:nth-child(2){background-image: none}
+    .banner_set>.inner>div{display: block}
+    .banner_set>.inner>div>p{display: none; top: 0}  
+    .icon_set>h2{padding-bottom: 30px}
+    .icon_set>p{display: none}
+    .story_set{padding-top: calc(2200/1920*100%)}
+    .story_list>.slide{width: 100%}
+    .board_set{height: 100px; line-height: revert}
+    .board_set>h2{float: none}
+    .board_set>p{float: none; line-height: 40px; width: 90%}
+    .board_set>ul{float: none}
+    .top_footer{display: none}
+    .copyright>ul>li>span{display: block; height: 30px}
+    
+    /*sub1*/
+
+    .network>.network_set{width: 70%; padding-left: 20%}
+    .network>.network_set>p{display: none}
+    .sub_icon>dl>dd>ul{width: 50%}
+    .sub_icon>dl>dd>ul>li{display: none}
+    .subbox>.box>.subbox_l>.txt2{display: none}
+    .subbox>.box>.subbox_r>.txt2{display: none}
+    .subbox>.box>.subbox_l{width: 49%; height: auto}
+    .subbox>.box>.subbox_r{width: 49%; height: auto}
+    .subbox>.box>.subbox_l>.btn_1{width: 50%; margin-top: 20px; margin-bottom: 20px}
+    .subbox>.box>.subbox_r>.btn_1{width: 50%; margin-top: 20px; margin-bottom: 20px}
+    .subbox>.box>.subbox_r>.txt1{margin-top: -12px}
+    .top_footer{display: none}
+    .copyright>ul>li>span{display: block; height: 30px}
+    
+}
+
+@media (max-width:640px)
+{.sub_icon>dl>dd>ul{width:40%}
+  .hope_title>h2{width: 100%}
+}
+
+@media (max-width:460px)
+{.sub_icon>dl>dd>ul{width:60%}
+}
